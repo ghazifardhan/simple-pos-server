@@ -1,0 +1,72 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "title": "ghazi_pos",
+      "author": "ghazi",
+      "id": 2
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "items": [
+    {
+      "id": 1,
+      "item_name": "Bawang Merah 1/4 KG",
+      "item_price": 10000,
+      "photo_url": ""
+    },
+    {
+      "id": 2,
+      "item_name": "Bawang Merah 1/2 KG",
+      "item_price": 20000,
+      "photo_url": ""
+    },
+    {
+      "id": 3,
+      "item_name": "Bawang Merah 1 KG",
+      "item_price": 30000,
+      "photo_url": ""
+    },
+    {
+      "item_name": "Bawang Putih 1/2 KG",
+      "item_price": 20000,
+      "photo_url": "",
+      "id": 4
+    },
+    {
+      "item_name": "Bawang 1KG\t",
+      "item_price": 40000,
+      "photo_url": "",
+      "id": 5
+    }
+  ],
+  "transactions": [
+    {
+      "id": 1,
+      "transaction_date": 1594470383,
+      "transactions_details": [
+        {
+          "item_id": 1,
+          "item_name": "Bawang Merah 1/4 KG",
+          "item_price": 10000,
+          "photo_url": "",
+          "quantity": 1,
+          "total": 10000
+        }
+      ]
+    }
+  ]
+}
