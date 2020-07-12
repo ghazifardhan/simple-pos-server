@@ -23,10 +23,10 @@
   },
   "items": [
     {
-      "id": 1,
       "item_name": "Bawang Merah 1/4 KG",
       "item_price": 10000,
-      "photo_url": ""
+      "photo_url": "/storage/emulated/0/Android/data/com.example.ghazi_pos/cache/c1e9d792-c312-48b4-90d5-f0005fdc098c7346478038385600763_compressed5590886697193803919.jpg",
+      "id": 1
     },
     {
       "id": 2,
@@ -45,24 +45,18 @@
       "item_price": 20000,
       "photo_url": "",
       "id": 4
-    },
-    {
-      "item_name": "Bawang 1KG\t",
-      "item_price": 40000,
-      "photo_url": "",
-      "id": 5
     }
   ],
   "transactions": [
     {
       "id": 1,
-      "transaction_date": 1594470383,
+      "transaction_date": 1594535133009,
       "transactions_details": [
         {
           "item_id": 1,
           "item_name": "Bawang Merah 1/4 KG",
           "item_price": 10000,
-          "photo_url": "",
+          "photo_url": "/storage/emulated/0/Android/data/com.example.ghazi_pos/cache/c1e9d792-c312-48b4-90d5-f0005fdc098c7346478038385600763_compressed5590886697193803919.jpg",
           "quantity": 1,
           "total": 10000
         }
