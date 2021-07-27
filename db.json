@@ -24,41 +24,587 @@
   "items": [
     {
       "item_name": "Bawang Merah 1/4 KG",
-      "item_price": 10000,
+      "item_price": 9000,
       "photo_url": "/storage/emulated/0/Android/data/com.example.ghazi_pos/cache/c1e9d792-c312-48b4-90d5-f0005fdc098c7346478038385600763_compressed5590886697193803919.jpg",
       "id": 1
     },
     {
-      "id": 2,
       "item_name": "Bawang Merah 1/2 KG",
-      "item_price": 20000,
-      "photo_url": ""
+      "item_price": 18000,
+      "photo_url": "/storage/emulated/0/Android/data/com.example.ghazi_pos/cache/2dd91dc1-e455-48d3-b927-71c67fcbd05e1969942057_compressed-1463048166.jpg",
+      "id": 2
     },
     {
-      "id": 3,
       "item_name": "Bawang Merah 1 KG",
-      "item_price": 30000,
-      "photo_url": ""
+      "item_price": 35000,
+      "photo_url": "",
+      "id": 3
     },
     {
-      "item_name": "Bawang Putih 1/2 KG",
-      "item_price": 20000,
+      "item_name": "Bawang Putih Kating 1/4 KG",
+      "item_price": 7000,
       "photo_url": "",
       "id": 4
+    },
+    {
+      "item_name": "Bawang Putih Kating 1/2 Kg",
+      "item_price": 13000,
+      "photo_url": "",
+      "id": 5
+    },
+    {
+      "item_name": "Bawang Putih Kating 1 Kg",
+      "item_price": 25000,
+      "photo_url": "",
+      "id": 6
+    },
+    {
+      "item_name": "Bawang Bombay 1/4 kg",
+      "item_price": 5000,
+      "photo_url": "",
+      "id": 7
+    },
+    {
+      "item_name": "Bawang Bombay 1/2 kg",
+      "item_price": 10000,
+      "photo_url": "",
+      "id": 8
+    },
+    {
+      "item_name": "Bawang Bombay",
+      "item_price": 20000,
+      "photo_url": "",
+      "id": 9
+    },
+    {
+      "item_name": "bawan putih kating 1 kg",
+      "item_price": 20000,
+      "photo_url": "",
+      "id": 10
     }
   ],
   "transactions": [
     {
       "id": 1,
-      "transaction_date": 1594535133009,
+      "transaction_date": 1594651501632,
       "transactions_details": [
         {
           "item_id": 1,
           "item_name": "Bawang Merah 1/4 KG",
-          "item_price": 10000,
+          "item_price": 9000,
+          "photo_url": "/storage/emulated/0/Android/data/com.example.ghazi_pos/cache/c1e9d792-c312-48b4-90d5-f0005fdc098c7346478038385600763_compressed5590886697193803919.jpg",
+          "quantity": 3,
+          "total": 27000
+        },
+        {
+          "item_id": 2,
+          "item_name": "Bawang Merah 1/2 KG",
+          "item_price": 18000,
+          "photo_url": "/storage/emulated/0/Android/data/com.example.ghazi_pos/cache/2dd91dc1-e455-48d3-b927-71c67fcbd05e1969942057_compressed-1463048166.jpg",
+          "quantity": 3,
+          "total": 54000
+        },
+        {
+          "item_id": 4,
+          "item_name": "Bawang Putih Kating 1/4 KG",
+          "item_price": 7000,
+          "photo_url": "",
+          "quantity": 2,
+          "total": 14000
+        },
+        {
+          "item_id": 5,
+          "item_name": "Bawang Putih Kating 1/2 Kg",
+          "item_price": 12000,
+          "photo_url": "",
+          "quantity": 1,
+          "total": 12000
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "transaction_date": 1594817543523,
+      "transactions_details": [
+        {
+          "item_id": 1,
+          "item_name": "Bawang Merah 1/4 KG",
+          "item_price": 9000,
           "photo_url": "/storage/emulated/0/Android/data/com.example.ghazi_pos/cache/c1e9d792-c312-48b4-90d5-f0005fdc098c7346478038385600763_compressed5590886697193803919.jpg",
           "quantity": 1,
+          "total": 9000
+        },
+        {
+          "item_id": 4,
+          "item_name": "Bawang Putih Kating 1/4 KG",
+          "item_price": 7000,
+          "photo_url": "",
+          "quantity": 1,
+          "total": 7000
+        },
+        {
+          "item_id": 5,
+          "item_name": "Bawang Putih Kating 1/2 Kg",
+          "item_price": 12000,
+          "photo_url": "",
+          "quantity": 3,
+          "total": 36000
+        },
+        {
+          "item_id": 6,
+          "item_name": "Bawang Putih Kating 1 Kg",
+          "item_price": 23000,
+          "photo_url": "",
+          "quantity": 2,
+          "total": 46000
+        },
+        {
+          "item_id": 9,
+          "item_name": "Bawang Bombay",
+          "item_price": 20000,
+          "photo_url": "",
+          "quantity": 1,
+          "total": 20000
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "transaction_date": 1594817592546,
+      "transactions_details": [
+        {
+          "item_id": 3,
+          "item_name": "Bawang Merah 1 KG",
+          "item_price": 35000,
+          "photo_url": "",
+          "quantity": 1,
+          "total": 35000
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "transaction_date": 1594817618743,
+      "transactions_details": [
+        {
+          "item_id": 1,
+          "item_name": "Bawang Merah 1/4 KG",
+          "item_price": 9000,
+          "photo_url": "/storage/emulated/0/Android/data/com.example.ghazi_pos/cache/c1e9d792-c312-48b4-90d5-f0005fdc098c7346478038385600763_compressed5590886697193803919.jpg",
+          "quantity": 2,
+          "total": 18000
+        },
+        {
+          "item_id": 3,
+          "item_name": "Bawang Merah 1 KG",
+          "item_price": 35000,
+          "photo_url": "",
+          "quantity": 2,
+          "total": 70000
+        },
+        {
+          "item_id": 4,
+          "item_name": "Bawang Putih Kating 1/4 KG",
+          "item_price": 7000,
+          "photo_url": "",
+          "quantity": 1,
+          "total": 7000
+        },
+        {
+          "item_id": 9,
+          "item_name": "Bawang Bombay",
+          "item_price": 20000,
+          "photo_url": "",
+          "quantity": 1,
+          "total": 20000
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "transaction_date": 1594916574812,
+      "transactions_details": [
+        {
+          "item_id": 2,
+          "item_name": "Bawang Merah 1/2 KG",
+          "item_price": 18000,
+          "photo_url": "/storage/emulated/0/Android/data/com.example.ghazi_pos/cache/2dd91dc1-e455-48d3-b927-71c67fcbd05e1969942057_compressed-1463048166.jpg",
+          "quantity": 2,
+          "total": 36000
+        },
+        {
+          "item_id": 3,
+          "item_name": "Bawang Merah 1 KG",
+          "item_price": 35000,
+          "photo_url": "",
+          "quantity": 1,
+          "total": 35000
+        },
+        {
+          "item_id": 5,
+          "item_name": "Bawang Putih Kating 1/2 Kg",
+          "item_price": 12000,
+          "photo_url": "",
+          "quantity": 1,
+          "total": 12000
+        },
+        {
+          "item_id": 6,
+          "item_name": "Bawang Putih Kating 1 Kg",
+          "item_price": 23000,
+          "photo_url": "",
+          "quantity": 3,
+          "total": 69000
+        },
+        {
+          "item_id": 8,
+          "item_name": "Bawang Bombay 1/2 kg",
+          "item_price": 10000,
+          "photo_url": "",
+          "quantity": 1,
           "total": 10000
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "transaction_date": 1595002472037,
+      "transactions_details": [
+        {
+          "item_id": 1,
+          "item_name": "Bawang Merah 1/4 KG",
+          "item_price": 9000,
+          "photo_url": "/storage/emulated/0/Android/data/com.example.ghazi_pos/cache/c1e9d792-c312-48b4-90d5-f0005fdc098c7346478038385600763_compressed5590886697193803919.jpg",
+          "quantity": 1,
+          "total": 9000
+        },
+        {
+          "item_id": 2,
+          "item_name": "Bawang Merah 1/2 KG",
+          "item_price": 18000,
+          "photo_url": "/storage/emulated/0/Android/data/com.example.ghazi_pos/cache/2dd91dc1-e455-48d3-b927-71c67fcbd05e1969942057_compressed-1463048166.jpg",
+          "quantity": 2,
+          "total": 36000
+        },
+        {
+          "item_id": 4,
+          "item_name": "Bawang Putih Kating 1/4 KG",
+          "item_price": 7000,
+          "photo_url": "",
+          "quantity": 1,
+          "total": 7000
+        },
+        {
+          "item_id": 6,
+          "item_name": "Bawang Putih Kating 1 Kg",
+          "item_price": 23000,
+          "photo_url": "",
+          "quantity": 1,
+          "total": 23000
+        },
+        {
+          "item_id": 7,
+          "item_name": "Bawang Bombay 1/4 kg",
+          "item_price": 6000,
+          "photo_url": "",
+          "quantity": 1,
+          "total": 6000
+        },
+        {
+          "item_id": 8,
+          "item_name": "Bawang Bombay 1/2 kg",
+          "item_price": 10000,
+          "photo_url": "",
+          "quantity": 1,
+          "total": 10000
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "transaction_date": 1595002502425,
+      "transactions_details": [
+        {
+          "item_id": 6,
+          "item_name": "Bawang Putih Kating 1 Kg",
+          "item_price": 23000,
+          "photo_url": "",
+          "quantity": 1,
+          "total": 23000
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "transaction_date": 1595002538946,
+      "transactions_details": [
+        {
+          "item_id": 9,
+          "item_name": "Bawang Bombay",
+          "item_price": 20000,
+          "photo_url": "",
+          "quantity": 1,
+          "total": 20000
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "transaction_date": 1595080840901,
+      "transactions_details": [
+        {
+          "item_id": 2,
+          "item_name": "Bawang Merah 1/2 KG",
+          "item_price": 18000,
+          "photo_url": "/storage/emulated/0/Android/data/com.example.ghazi_pos/cache/2dd91dc1-e455-48d3-b927-71c67fcbd05e1969942057_compressed-1463048166.jpg",
+          "quantity": 1,
+          "total": 18000
+        },
+        {
+          "item_id": 4,
+          "item_name": "Bawang Putih Kating 1/4 KG",
+          "item_price": 7000,
+          "photo_url": "",
+          "quantity": 2,
+          "total": 14000
+        },
+        {
+          "item_id": 5,
+          "item_name": "Bawang Putih Kating 1/2 Kg",
+          "item_price": 12000,
+          "photo_url": "",
+          "quantity": 2,
+          "total": 24000
+        },
+        {
+          "item_id": 6,
+          "item_name": "Bawang Putih Kating 1 Kg",
+          "item_price": 23000,
+          "photo_url": "",
+          "quantity": 5,
+          "total": 115000
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "transaction_date": 1595080872475,
+      "transactions_details": [
+        {
+          "item_id": 10,
+          "item_name": "bawan putih kating 1 kg",
+          "item_price": 20000,
+          "photo_url": "",
+          "quantity": 1,
+          "total": 20000
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "transaction_date": 1595344844336,
+      "transactions_details": [
+        {
+          "item_id": 2,
+          "item_name": "Bawang Merah 1/2 KG",
+          "item_price": 18000,
+          "photo_url": "/storage/emulated/0/Android/data/com.example.ghazi_pos/cache/2dd91dc1-e455-48d3-b927-71c67fcbd05e1969942057_compressed-1463048166.jpg",
+          "quantity": 3,
+          "total": 54000
+        },
+        {
+          "item_id": 3,
+          "item_name": "Bawang Merah 1 KG",
+          "item_price": 35000,
+          "photo_url": "",
+          "quantity": 1,
+          "total": 35000
+        },
+        {
+          "item_id": 7,
+          "item_name": "Bawang Bombay 1/4 kg",
+          "item_price": 5000,
+          "photo_url": "",
+          "quantity": 1,
+          "total": 5000
+        },
+        {
+          "item_id": 8,
+          "item_name": "Bawang Bombay 1/2 kg",
+          "item_price": 10000,
+          "photo_url": "",
+          "quantity": 2,
+          "total": 20000
+        },
+        {
+          "item_id": 9,
+          "item_name": "Bawang Bombay",
+          "item_price": 20000,
+          "photo_url": "",
+          "quantity": 1,
+          "total": 20000
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "transaction_date": 1595345015324,
+      "transactions_details": [
+        {
+          "item_id": 1,
+          "item_name": "Bawang Merah 1/4 KG",
+          "item_price": 9000,
+          "photo_url": "/storage/emulated/0/Android/data/com.example.ghazi_pos/cache/c1e9d792-c312-48b4-90d5-f0005fdc098c7346478038385600763_compressed5590886697193803919.jpg",
+          "quantity": 1,
+          "total": 9000
+        },
+        {
+          "item_id": 8,
+          "item_name": "Bawang Bombay 1/2 kg",
+          "item_price": 10000,
+          "photo_url": "",
+          "quantity": 1,
+          "total": 10000
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "transaction_date": 1595645649972,
+      "transactions_details": [
+        {
+          "item_id": 1,
+          "item_name": "Bawang Merah 1/4 KG",
+          "item_price": 9000,
+          "photo_url": "/storage/emulated/0/Android/data/com.example.ghazi_pos/cache/c1e9d792-c312-48b4-90d5-f0005fdc098c7346478038385600763_compressed5590886697193803919.jpg",
+          "quantity": 2,
+          "total": 18000
+        },
+        {
+          "item_id": 2,
+          "item_name": "Bawang Merah 1/2 KG",
+          "item_price": 18000,
+          "photo_url": "/storage/emulated/0/Android/data/com.example.ghazi_pos/cache/2dd91dc1-e455-48d3-b927-71c67fcbd05e1969942057_compressed-1463048166.jpg",
+          "quantity": 1,
+          "total": 18000
+        },
+        {
+          "item_id": 3,
+          "item_name": "Bawang Merah 1 KG",
+          "item_price": 35000,
+          "photo_url": "",
+          "quantity": 1,
+          "total": 35000
+        },
+        {
+          "item_id": 5,
+          "item_name": "Bawang Putih Kating 1/2 Kg",
+          "item_price": 13000,
+          "photo_url": "",
+          "quantity": 3,
+          "total": 39000
+        },
+        {
+          "item_id": 6,
+          "item_name": "Bawang Putih Kating 1 Kg",
+          "item_price": 25000,
+          "photo_url": "",
+          "quantity": 2,
+          "total": 50000
+        },
+        {
+          "item_id": 7,
+          "item_name": "Bawang Bombay 1/4 kg",
+          "item_price": 5000,
+          "photo_url": "",
+          "quantity": 2,
+          "total": 10000
+        },
+        {
+          "item_id": 9,
+          "item_name": "Bawang Bombay",
+          "item_price": 20000,
+          "photo_url": "",
+          "quantity": 2,
+          "total": 40000
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "transaction_date": 1596345953605,
+      "transactions_details": [
+        {
+          "item_id": 1,
+          "item_name": "Bawang Merah 1/4 KG",
+          "item_price": 9000,
+          "photo_url": "/storage/emulated/0/Android/data/com.example.ghazi_pos/cache/c1e9d792-c312-48b4-90d5-f0005fdc098c7346478038385600763_compressed5590886697193803919.jpg",
+          "quantity": 2,
+          "total": 18000
+        },
+        {
+          "item_id": 2,
+          "item_name": "Bawang Merah 1/2 KG",
+          "item_price": 18000,
+          "photo_url": "/storage/emulated/0/Android/data/com.example.ghazi_pos/cache/2dd91dc1-e455-48d3-b927-71c67fcbd05e1969942057_compressed-1463048166.jpg",
+          "quantity": 10,
+          "total": 180000
+        },
+        {
+          "item_id": 3,
+          "item_name": "Bawang Merah 1 KG",
+          "item_price": 35000,
+          "photo_url": "",
+          "quantity": 6,
+          "total": 210000
+        },
+        {
+          "item_id": 4,
+          "item_name": "Bawang Putih Kating 1/4 KG",
+          "item_price": 7000,
+          "photo_url": "",
+          "quantity": 2,
+          "total": 14000
+        },
+        {
+          "item_id": 5,
+          "item_name": "Bawang Putih Kating 1/2 Kg",
+          "item_price": 13000,
+          "photo_url": "",
+          "quantity": 10,
+          "total": 130000
+        },
+        {
+          "item_id": 6,
+          "item_name": "Bawang Putih Kating 1 Kg",
+          "item_price": 25000,
+          "photo_url": "",
+          "quantity": 4,
+          "total": 100000
+        },
+        {
+          "item_id": 7,
+          "item_name": "Bawang Bombay 1/4 kg",
+          "item_price": 5000,
+          "photo_url": "",
+          "quantity": 2,
+          "total": 10000
+        },
+        {
+          "item_id": 8,
+          "item_name": "Bawang Bombay 1/2 kg",
+          "item_price": 10000,
+          "photo_url": "",
+          "quantity": 1,
+          "total": 10000
+        },
+        {
+          "item_id": 9,
+          "item_name": "Bawang Bombay",
+          "item_price": 20000,
+          "photo_url": "",
+          "quantity": 2,
+          "total": 40000
         }
       ]
     }
